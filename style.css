@@ -1,0 +1,14 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial}
+body{color:#222}
+header{background:#07182e;color:white;padding:15px;position:fixed;width:100%;z-index:2}
+header img{width:50px;vertical-align:middle}
+.hero{height:100vh;background:linear-gradient(135deg,#07182e,#c9a84c);color:white;text-align:center;padding-top:40vh}
+.hero h2{font-size:42px;animation:up 1s}
+.hero a{display:inline-block;background:white;color:#07182e;padding:12px 25px;border-radius:30px;text-decoration:none;margin-top:20px}
+section{text-align:center;padding:80px 20px}
+.cards{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
+.cards div{background:#eee;padding:30px;border-radius:15px;transition:.3s}
+.cards div:hover{transform:translateY(-10px)}
+.whatsapp{position:fixed;right:20px;bottom:20px;background:#25D366;color:white;padding:15px;border-radius:40px;text-decoration:none}
+footer{background:#07182e;color:white;padding:20px;text-align:center}
+@keyframes up{from{opacity:0;transform:translateY(-40px)}to{opacity:1}}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+<rect width="200" height="200" rx="40" fill="#07182e"/>
+<path d="M40 150L100 40L160 150" fill="none" stroke="#c9a84c" stroke-width="12"/>
+<text x="55" y="175" fill="white" font-size="45">DIS</text>
+</svg>
